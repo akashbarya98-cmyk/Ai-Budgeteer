@@ -19,10 +19,12 @@ node_modules
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
 *.pem
+*.key
 
 # debug
 npm-debug.log*
@@ -40,6 +42,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated files
+/generated/
+/prisma/generated/
+*.generated.*
+
 local-*
 .claude
 .z-ai-config
